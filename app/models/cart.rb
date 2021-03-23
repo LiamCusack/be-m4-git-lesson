@@ -5,8 +5,10 @@ class Cart
     @contents = contents || {}
   end
 
-  def add_item(id)
-    contents[id.to_s] = (contents[id.to_s] || 0) + 1
+  def nope
+    nope
+    nope
+    nope
   end
 
   def cart_total_price
